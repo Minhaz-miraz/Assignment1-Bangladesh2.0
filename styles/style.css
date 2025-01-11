@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* banner styles start */
+#banner{
+    border-radius: 24px;
+background: rgb(198, 228, 214);
+margin: 0 auto;
+margin-top: 100px;
+width: 1300px;
+}
+
+.banner-text-fig{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 100px;
+}
+.banner-fig{
+    padding: 60px;
+}
+/* .banner-text{ */
+    /* margin-left: 10px; */
+
+.banner-title{
+    color: rgba(14, 14, 14, 0.5);
+font-family: Fira Sans;
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: left;
+}
+.banner-heading{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 50px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 0px;
+}
+.banner-button{
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    width: 190px;
+height: 40px;
+margin-bottom: 20px;
+border: none;
+color: rgb(255, 255, 255);
+}
+.vission-button1:hover, .vission-button2:hover, .vission-button3:hover, .banner-button:hover{
+    background-color: rgb(218, 22, 4);
+}
+/* vission area */
+#vission{
+    width: 1280px;
+    height: 765px;
+    margin: 100px;
+}
+.vission-heading{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 35px;
+font-weight: 700;
+line-height: 45px;
+letter-spacing: 0%;
+text-align: left;
+}
+.vission-description{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.vission-cards-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.vission-card1{
+    background-color: rgba(84, 144, 245, 0.2);
+    width: 410.67px;
+    height: 350px;
+    padding: 24px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    
+}
+.vission-card2{
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+    width: 410.67px;
+height: 350px;
+padding: 32px;
+    }
+.vission-card3{
+    width: 410.67px;
+height: 350px;
+padding: 24px;
+box-sizing: border-box;
+border-radius: 16px;
+
+background: rgb(247, 235, 207);
+    box-sizing: border-box;
+    border-radius: 16px;
+    width: 410.67px;
+    padding: 32px;
+
+}
+.vission-card-title{
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+.vission-card-description{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+.vission-button1{
+    border-radius: 8px;
+    background: rgb(84, 144, 245);
+    width: 122px;
+    height: 41px;
+    padding: 11px 20px 11px 20px;
+    border: none;
+}
+.vission-button2{
+    width: 122px;
+    height: 41px;
+    padding: 11px 20px 11px 20px;
+    border: none;
+    background: rgb(9, 161, 92);
+    border-radius: 8px;
+    margin-top: 13px;
+    }
+.vission-button3{
+    width: 122px;
+    height: 41px;
+    padding: 11px 20px 11px 20px;
+    border: none;
+    background: rgb(255, 194, 57);
+    border-radius: 8px;
+    margin-bottom: 7px;
+}
+.yunus{
+    background-color: rgb(251, 251, 251);
+    width: 1280px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 16px;
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+padding-top: 20px ;
+padding-left: 20px;
+padding-right: 20px;
+margin: 30px 60px 0px 15px;
+background-image: url("/assets/quote-bg.png");
+background-repeat: no-repeat;
+}
+.yunustitle{
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 15px;
+font-weight: 600;
+line-height: 15px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 0px;
+}
+.yunussub{
+    margin-top: 0px;
+}
