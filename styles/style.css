@@ -50,7 +50,7 @@ margin-bottom: 20px;
 border: none;
 color: rgb(255, 255, 255);
 }
-.vission-button1:hover, .vission-button2:hover, .vission-button3:hover, .banner-button:hover, .news-button:hover, .news-button2:hover, .tk-button:hover{
+.vission-button1:hover, .vission-button2:hover, .vission-button3:hover, .banner-button:hover, .news-button:hover, .news-button2:hover, .subscribe-button:hover, .tk-button:hover{
     background-color: rgb(218, 22, 4);
 }
 /* vission area */
@@ -366,7 +366,7 @@ order: 4;
 flex-grow: 0;
 margin: 20px 0px;
 text-align: center;
-margin-left: 150px;
+margin-left: 350px;
 }
 .tk-button{
     width: 151px;
@@ -387,5 +387,103 @@ color: rgb(255, 255, 255);
 margin-left: 580px;
 } 
 /* subscriber section */
+.subscribe{
+    width: 1280px;
+height: 250px;
+border-radius: 24px;
+background: rgb(198, 228, 214);
+margin: 0 auto;
+
+
+}
+.subscriber-detail{
+    margin: 0 auto;
+    width: 750px;
+height: 230px;
+margin: 80px 100px 80px 100px ;
+margin-bottom: 80px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 24;
+padding: 0px;
+}
+input{
+    width: 600px;
+    height: 50px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    border: none;
+
+}
+.subsciber-text{
+    align-items: center;
+}
+.subscriber-title{
+    text-align: center;
+}
+.subscriber-all{
+    display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 24;
+padding: 0px;
+margin-top: 50px;
+}
+.subscriber-title{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 33px;
+font-weight: 600;
+line-height: 40px;
+letter-spacing: 0%;
+text-align: center;
+margin-top: 80px;
+}
+.description{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 12px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: center;
+}
+.subscribe-button{
+    width: 100px;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+    background: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+
+}
+.subscribe-description{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+width: 622px;
+height: 48px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+}
+.subs-last{
+    margin-bottom: 200px;
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: center;
+}
 
 
