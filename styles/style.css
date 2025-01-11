@@ -50,7 +50,7 @@ margin-bottom: 20px;
 border: none;
 color: rgb(255, 255, 255);
 }
-.vission-button1:hover, .vission-button2:hover, .vission-button3:hover, .banner-button:hover{
+.vission-button1:hover, .vission-button2:hover, .vission-button3:hover, .banner-button:hover, .news-button:hover{
     background-color: rgb(218, 22, 4);
 }
 /* vission area */
@@ -210,4 +210,90 @@ line-height: 24px;
 letter-spacing: 0%;
 text-align: left;
 margin: 20px 160px 0px 130px;
+}
+.news-container1{
+    display: flex;
+    gap: 60px;
+    padding: 48px;
+    padding-left: 50px;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    flex-direction: row;
+    justify-content: center;
+    width: 1190px;
+    height: 270px;
+    border-radius: 24px;
+}
+.sattelite{
+    border-radius: 24px;
+}
+.sattelite-card{
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.date-time{
+    display: flex;
+    gap: 5px;
+    width: 744px;
+height: 24px;
+margin-bottom: 5px;
+}
+.al-jazeera{
+    width: 134px;
+height: 40px;
+margin-top: 0px;
+}
+.news-button{
+    width: 139px;
+height: 48px;
+border-radius: 8px;
+background: rgb(0, 106, 80);
+border: none;
+color: rgb(255, 255, 255);
+
+}
+.news-container2{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-direction: row-reverse;
+    gap: 60px;
+    padding: 48px;
+    padding-left: 50px;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    flex-direction: row;
+    justify-content: center;
+    width: 1190px;
+    height: 270px;
+    border-radius: 24px;
+
+}
+.sattelite2{
+    border-radius: 24px;
+}
+.sattelite-card2{
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.date-time2{
+    display: flex;
+    gap: 5px;
+    width: 744px;
+height: 24px;
+margin-bottom: 5px;
+}
+.al-jazeera2{
+    width: 134px;
+height: 40px;
+margin-top: 0px;
+}
+.news-button2{
+    width: 139px;
+height: 48px;
+border-radius: 8px;
+background: rgb(0, 106, 80);
+border: none;
+color: rgb(255, 255, 255);
+
 }
