@@ -50,7 +50,7 @@ margin-bottom: 20px;
 border: none;
 color: rgb(255, 255, 255);
 }
-.vission-button1:hover, .vission-button2:hover, .vission-button3:hover, .banner-button:hover, .news-button:hover{
+.vission-button1:hover, .vission-button2:hover, .vission-button3:hover, .banner-button:hover, .news-button:hover, .news-button2:hover, .tk-button:hover{
     background-color: rgb(218, 22, 4);
 }
 /* vission area */
@@ -297,3 +297,95 @@ border: none;
 color: rgb(255, 255, 255);
 
 }
+.donation-container{
+    width: 1280px;
+height: 464px;
+    margin: 0 auto;
+}
+.donation-heading{
+    text-align: center;
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 35px;
+font-weight: 600;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+}
+.donation-description{
+    text-align: center;
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+margin: 0px 24px;
+}
+.tk-card div{
+
+width: 200px;
+height: 65px;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+padding: 25px;
+color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 34px;
+font-weight: 600;
+line-height: 40px;
+letter-spacing: 0%;
+text-align: center;
+border-radius: 16px;
+background: rgb(255, 255, 255);
+}
+.tk2{
+    background: rgb(198, 228, 214);
+}
+.tk-card{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+text-align: center;
+gap: 24px;
+padding: 0px;
+}
+input{
+    width: 1020px;
+    height: 30px;
+align-items: center;
+gap: 32;
+padding: 0px;
+
+
+
+flex: none;
+order: 4;
+flex-grow: 0;
+margin: 20px 0px;
+text-align: center;
+margin-left: 150px;
+}
+.tk-button{
+    width: 151px;
+height: 56px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 48;
+padding: 17px 34px 17px 34px;
+border: 1px solid rgba(14, 14, 14, 0.1);
+border-radius: 8px;
+background: rgb(0, 106, 80);
+border: 1px solid rgba(14, 14, 14, 1.2);
+border-radius: 8px;
+background: rgb(0, 106, 80);
+color: rgb(255, 255, 255);
+margin-left: 580px;
+} 
+/* subscriber section */
+
+
